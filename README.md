@@ -14,3 +14,16 @@ Unzip `roblox-forge.zip` into `~/.claude/skills/` so you get `~/.claude/skills/r
 - `scripts/` - texture generators, validator, aura modules, keyframe builder, Studio preview, `hair/` pipeline
 
 No Toolbox assets or benchmark geometry are included.
+
+---
+
+# roblox-dev-playbook (Claude Code skill)
+
+The whole-project playbook from the same build: lean multi-agent workflow, Studio MCP habits, VFX,
+modeling/characters, animation/cutscenes, UI, map building, audio, economy/launch/LiveOps, testing and
+security. `SKILL.md` routes to one reference file per domain so a session loads only what it needs.
+
+## Install
+Unzip `roblox-dev-playbook.zip` into `~/.claude/skills/` so you get
+`~/.claude/skills/roblox-dev-playbook/SKILL.md`. For auto-loading on every Roblox prompt, register
+`hooks/roblox-router.sh` as a UserPromptSubmit hook (steps in the skill's README.md).
